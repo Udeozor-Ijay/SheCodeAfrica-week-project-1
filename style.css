@@ -1,3 +1,5 @@
+
+
 header {
     display: block;
     position: fixed;
@@ -6,7 +8,7 @@ header {
     width: 100%;
     color: hsl(219, 9%, 45%);
     background-color:  hsl(0, 0%, 100%);
-    padding: 2em;
+    padding: 1em;
     
   }
 
@@ -33,16 +35,18 @@ header {
   article{
     display: flex;
     flex-direction: row;
-    margin-top: 5em;
-    padding: 15px;
+    margin-top: 3em;
+    padding-top: 4em;
+    padding-right: 7em;
+    padding-left: 7em;
   }
 
   section{
-    margin: 4em;
+    margin-top: 1.5em;
   }
 
-  #sec1{
-    margin-right: 7em;
+  #box2{
+    margin-right: 0em
   }
 
   h3{
@@ -57,6 +61,43 @@ header {
   img{
     border-radius: 16px;
   }
+
+  #box1{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+#images {
+    display: flex;
+    flex-direction:row ;
+    margin-bottom: 5em;
+}
+
+  #images > img{
+    margin: 1em;
+  }
   
+  div{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .butt{
+    background-color: hsl(223, 64%, 98%);
+    padding: 1em;
+  }
+
+  #box > h2, #box > h3
+  {padding: 1em;
+}
+
+  section > h2 {
+    
+    font-size: xx-large;
+    font-weight: 400 700;
+  }
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
