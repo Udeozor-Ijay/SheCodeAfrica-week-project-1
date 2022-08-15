@@ -13,20 +13,32 @@
 
 <body>
   <header>
-    <nav>
-      <ul id="list1">
-        <li><img src="images/logo.svg"></li>
-        <li> Collections </li>
-        <li> Men </li>
-        <li> Women </li>
-        <li> About </li>
-        <li> Contact </li>
-      </ul>
-      <ul id="list2"> 
-        <li><img src="images/icon-cart.svg"></li>
-        <li> <img src="images/image-avatar.png" width="30%"></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <div class="subcontainer">
+        <nav class="navbar">
+          <ul class="nav-menu" id="list1">
+            <li ><img src="images/logo.svg"></li>
+            <li class="nav-item"> Collections </li>
+            <li class="nav-item"> Men </li>
+            <li class="nav-item"> Women </li>
+            <li class="nav-item"> About </li>
+            <li class="nav-item"> Contact </li>
+          </ul>
+          <ul id="list2"> 
+            <li><img src="images/icon-cart.svg"></li>
+            <li> <img src="images/image-avatar.png" width="30%"></li>
+          </ul>
+    
+          <div class="harmburger" >
+            <span class="bar"> </span>
+            <span class="bar"> </span>
+            <span class="bar"> </span>
+          </div>
+        </nav>
+      </div>
+    </div>
+    
+   
   </header>
   <hr>
 
@@ -60,15 +72,14 @@
   <p>$250.00</p>
   <p> 50% </p>
   
-  <div>
+  <div id="div">
     <p class="butt"> <img src="images/icon-minus.svg"></p> 
     <p class="butt">0</p> 
     <p class="butt"> <img src="images/icon-plus.svg"></p>
-    <p style="background-color: hsl(26, 100%, 55%);
-     border-radius: 16px;
-     margin-left: 2em;
-     padding: 1.5em;
-     color: white;"><img src="images/icon-cart.svg" style="margin-left:1em; margin-right: 1em; color: white;">Add to cart</p>
+    <div class="w3-padding w3-xlarge w3-teal" id="cart">
+      <img src="images/icon-cart.svg" id="iconcart">
+        <p >Add to cart</p>
+    </div>
   </div>
   
   
@@ -91,5 +102,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script src="index.js"></script>
 </body>
 </html>
